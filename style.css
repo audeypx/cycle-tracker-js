@@ -1,0 +1,143 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right,#1F030C,#8E0E00,#ff0000,#cc0526 );
+
+}
+
+#container {
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); 
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  background:#8E0E00;
+  color: white;
+  margin: 0;
+  padding: 10px 100px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bolder;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+p {
+  padding-left: 20px;
+  font-weight: bolder;
+  color: #464242;
+}
+
+form input[type="text"] {
+  width:90px;
+  color: #464242;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#prdbox {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  color: #464242;
+}
+
+#last_period {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  /* font-weight: bold; */
+  color: #464242;
+}
+
+#curr_period{
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  color: #464242;
+}
+
+#n_period{
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  color: #464242;
+}
+
+#no_period{
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  color: #464242;
+}
+
+
+#last_period:focus {
+  background: #fff;
+  box-shadow: 2px solid;
+}
+
+#curr_period:focus {
+  background: #fff;
+  box-shadow: 2px solid;
+}
+
+
+
+#cyc_length {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  background-color: #f7f7f7;
+  font-size: 14px;
+}
+
+
+
+button {
+  text-decoration:none;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background:#8E0E00;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+
+button:hover {
+  background: #ff0000;
+  border-bottom-color: #111;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+button:focus {outline:0;}
+
+.hide{
+  display: none;
+  padding-bottom: 5%;
+}

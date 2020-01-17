@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    CycleTracker
+  </title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="container">
+    <h1>Cycle Tracker</h1>
+    <div id="calculator">
+
+
+      <form>
+        <p>Last Period Date
+        </p>
+        <input id="last_period" type="date" value="" required>
+
+        <p>Current Period Date
+        </p>
+        <input id="curr_period" type="date" value="" required>
+
+      </form>
+
+
+      <button type="button" id="calculate" onclick="Period()">Calculate</button>
+
+    </div>
+
+    <div class="panel hide">
+
+      <p>Your Cycle Length is
+        <br> <br>
+        <span id="cyc_length"></span>
+      </p>
+
+      <p>Next Ovulation Period
+      </p>
+      <input id="no_period" type="date">
+
+      <p>Next Period Date
+      </p>
+      <input id="n_period" type="date">
+
+    </div>
+
+  </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
